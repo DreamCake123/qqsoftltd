@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+}
+video {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.panel{
+    display: flex;
+}
+.panel .bg { 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20vw;
+    height: 100%;
+    background-color: rgba(255,255,255,0.5);
+}
+.panel .content{
+    
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    width: 20vw;
+    height: 100%;
+    align-items: center;
+}
+.panel .content .header{
+    position: relative;
+    display: flex;
+    color: rgb(255,0,102);
+    margin-left: 20px;
+    flex-direction: column;
+    text-decoration-line: underline;
+}
+
+.panel .content .input_area .input_box{
+    width: 160px;
+    height: 30px;
+    border-radius: 10px;
+    border-color: lightblue;
+    border-style: solid;
+    font-size: 15px;
+}
+.panel .content p{
+    font-size: 20px;
+}
+.panel .content img{
+    display: inline;
+}
